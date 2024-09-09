@@ -1,2 +1,8 @@
-
-KNU-24Fall-C/
+#.gitignore
+# ignore ALL
+*
+!*/
+#ALLOW list
+!.gitignore
+!.gitattridbutes
+!*.c
