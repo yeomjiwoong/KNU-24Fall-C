@@ -9,7 +9,7 @@ int main()
 	printf("첫번째 숫자:");
 	scanf_s("%lf", &num1);
 	printf("두번째 숫자: ");
-	scanf_s("%lf", &num2);
+	scanf_s("%lf", &num2); 
 	
 
 	double result = 0;
@@ -19,7 +19,15 @@ int main()
 	else if (opr == 2) {
 		result = num1 - num2;
 	}
+	else if (opr == 3) {
+		result = num1 * num2;
+	}
+	else if (opr == 4) {
+		result == num1 / num2;
+	}
 	printf("result = %lf", result);
 
 	return 0;
 }
+
+
