@@ -67,6 +67,6 @@ int main() {
     fillrandom(array);  
     printarray(array);  
     movepointer(array); 
-
+    
     return 0;
 }
