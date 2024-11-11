@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS // C4996 오류 무시
+#define _CRT_SECURE_NO_WARNINGS 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,7 +9,6 @@ typedef struct Node {
     struct Node* next; 
 } Node;
 
-// 함수 선언
 Node* createNode(char* name, int score);
 void insertStudent(Node** head, char* name, int score);
 void deleteStudent(Node** head, char* name);
